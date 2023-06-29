@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+   background-color: #c05;
+}
+.form {
+    position: absolute;
+    top: 27%;
+    right: 53%;
+    transform: translate(50%, 50%);
+}
+.btn {
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border-radius: 20px;
+}
+.btn:active {
+    background-color: #da0758f3;
+}
+div {
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.all {
+    position: absolute;
+    right: 60px;
+}

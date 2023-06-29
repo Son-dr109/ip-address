@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>What my ip address</title>
+  </head>
+  <body>
+    <div class="form">
+      <button onclick="getIp()" class="btn">
+        Click to find your ip address
+      </button>
+      <div class="all">
+        <div id="ip"></div>
+        <div id="country"></div>
+        <div id="city"></div>
+      </div>
+    </div>
+    <script async>
+      window.addEventListener("load", function() {
+        let script = document.createElement("script");
+        script.src = "script.js";
+        document.body.appendChild(script);
+      });
+    </script>
+  </body>
+</html>
